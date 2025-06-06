@@ -1,1 +1,21 @@
-Inclusão do codigo do jogo
+Inclusão do codigo do jogo:
+
+
+programa {
+  funcao inicio() {
+    inteiro jogador = 0,coluna = 0,linha = 0,jogadas = 0,vencedor = 0
+    cadeia jogo[3][3]
+
+    escreva("¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨\n")
+    escreva("JOGO DA VELHA\n")
+    escreva("¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨\n")
+
+    escreva("Essa é nossa lousa\n")
+       para(inteiro x = 0;x <3;x++){
+       para(inteiro c = 0;c <3;c++){
+        jogo[x][c] = " "
+         escreva("[",jogo[x][c],"]")
+         jogador = 1
+       }
+         escreva("\n")
+
